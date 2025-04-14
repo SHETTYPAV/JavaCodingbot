@@ -1,11 +1,11 @@
 class Triangle
 {
- void area()
+	static double area()
 	{
 		int a=3;
 		int b=4;
 		double c= 0.5*a*b;
-		System.out.println(res);
+		return c;
 	}
 }
 		class Tr
@@ -13,7 +13,7 @@ class Triangle
 		public static void main(String [] args)
 		{
 			
-			new Triangle().area();
-			
+			double d=Triangle.area();
+			System.out.println(d);
 		}
 }

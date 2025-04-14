@@ -1,17 +1,17 @@
 class Square
 {
- public  int area()
+ public static int area()
 	{
 	 int a=5;
 	 int res= a*a;
-	 System.out.println(res);
+	 return res;
 	}
 }
 class Sqa
 {
 	public static void main(String [] args)
 	{
-		new Square().area();
-		
+		int c=Square.area();
+		System.out.println(c);
 	}
 }

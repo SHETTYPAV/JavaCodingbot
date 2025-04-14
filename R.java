@@ -1,11 +1,11 @@
 class Rectangle
 {
- void area()
+ int area()
 	{
 		int a=3;
 		int b=4;
 		int c= a*b;
-		System.out.println(c);
+		return c;
 		
 	}
 }
@@ -14,7 +14,7 @@ class Rectangle
 		public static void main(String [] args)
 		{
 			
-			 new Rectangle().area();
-			
+			int d= new Rectangle().area();
+			System.out.println(d);
 		}
 }

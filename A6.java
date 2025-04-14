@@ -2,7 +2,9 @@ class A6
 {
 	public static void main(String[]args)
 	{
-		double[]arr={10,20,30,40};
+		double[]arr=new double[2];
+		arr[0]=10;
+		arr[1]=20;
 		System.out.println("*******************");
 		System.out.println("index \tvalues");
 		System.out.println("*******************");

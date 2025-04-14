@@ -2,7 +2,9 @@ class A4
 {
 	public static void main(String[]args)
 	{
-		long[]arr={10,20,30,40};
+		long[]arr=new long[2];
+		arr[0]=10;
+		arr[1]=20;
 		System.out.println("*******************");
 		System.out.println("index \tvalues");
 		System.out.println("*******************");

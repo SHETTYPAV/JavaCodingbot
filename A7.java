@@ -2,7 +2,9 @@ class A7
 {
 	public static void main(String[]args)
 	{
-		char[]arr={'A','B','C','D'};
+		boolean[]arr=new boolean[2];
+		arr[0]=true;
+		arr[1]=false;
 		System.out.println("*******************");
 		System.out.println("index \tvalues");
 		System.out.println("*******************");

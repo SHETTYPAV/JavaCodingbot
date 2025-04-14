@@ -2,7 +2,9 @@ class A2
 {
 	public static void main(String[]args)
 	{
-		byte[]arr={10,20,30,40};
+		byte[]arr=new byte[2];
+		arr[0]=10;
+		arr[1]=20;
 		System.out.println("*******************");
 		System.out.println("index \tvalues");
 		System.out.println("*******************");

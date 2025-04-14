@@ -1,29 +1,45 @@
-abstract class Sample2
+class Tea
 {
-	 abstract void cool();
-	 abstract void fo();
-}
-abstract class Demo2 extends Sample2
-{
-	void cool()
+	void taste()
 	{
-		System.out.println("i am cool");
+		System.out.println("taste is good");
 	}
 }
-class cool2 extends Demo2
+class Green_tea extends Tea
 {
-	void fo()
+	void taste()
 	{
-		System.out.println("i am fo");
+		System.out.println("taste is nice");
 	}
 }
-
-class Mainclass
+class Black_tea extends Tea
+{
+	void taste(){
+		System.out.println("taste is good");
+	}
+}
+class Lemon extends Tea
+{
+	void taste(){
+		System.out.println("taste is ossum");
+}
+}
+class Stimulator 
+{
+	static void taste(Tea t1)
+	{
+             t1.taste();
+	}
+}
+class Mainclass2
 {
 	public static void main(String[]args)
 	{
-		cool2 d1=new cool2();
-		d1.cool();
-	    d1.fo();
+	Green_tea B1=new Green_tea();
+	Black_tea C1=new Black_tea();
+	Lemon_tea A1=new Lemon_tea();
+	Stimulator.taste(B1);
+	Stimulator.taste(C1);
+	Stimulator.taste(A1);
 }
 }

@@ -26,7 +26,7 @@ class Auto extends ola
 }
 class Stimulator 
 {
-	static void veh_sound(ola o1)
+	static void ride(ola o1)
 	{
 		o1.ride();
 	}

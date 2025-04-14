@@ -1,45 +1,45 @@
-class Bike
+class ola
 {
-	void sound()
+	void ride()
 	{
-		System.out.println("some sound");
+		System.out.println("ride safely");
 	}
 }
-class pulsar extends Bike
+class Bike extends ola
 {
-	void sound()
+	void ride()
 	{
-		System.out.println("dur dur");
+		System.out.println("ride in bike");
 	}
 }
-class java extends Bike
+class Car extends ola
 {
-	void sound(){
-		System.out.println("tuk tuk");
+	void ride(){
+		System.out.println("ride in car");
 	}
 }
-class BMW extends Bike
+class Auto extends ola
 {
-	void sound(){
-		System.out.println("vroom vroom");
+	void ride(){
+		System.out.println("ride in Auto");
 }
 }
 class Stimulator 
 {
-	static void veh_sound(Bike B1)
+	static void veh_sound(ola o1)
 	{
-		B1.sound();
+		o1.ride();
 	}
 }
-class Mainclass
+class Mainclass1
 {
 	public static void main(String[]args)
 	{
-	pulsar p1=new pulsar();
-	java j1=new java();
-	BMW b1=new BMW();
-	Stimulator.veh_sound(p1);
-	Stimulator.veh_sound(j1);
-	Stimulator.veh_sound(b1);
+	Bike B1=new Bike();
+	Car C1=new Car();
+	Auto A1=new Auto();
+	Stimulator.ride(B1);
+	Stimulator.ride(C1);
+	Stimulator.ride(A1);
 }
 }

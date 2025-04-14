@@ -1,0 +1,16 @@
+class Bike
+{
+static  String Bikebrand="Royal Enfield";
+String colour;
+int bike_cost;
+public static void main(String []args)
+{
+System.out.println("Bike brand is "+Bikebrand);
+Bike C=new Bike();
+C.colour="white";
+System.out.println(C.colour);
+Bike C1=new Bike();
+C1.bike_cost=100000;
+System.out.println(C1.bike_cost);
+}
+}

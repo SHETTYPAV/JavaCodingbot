@@ -1,0 +1,16 @@
+class Car
+{
+static  String car type="Petrol";
+String car model name;
+int car cost;
+public static void main(String []args)
+{
+System.out.println("Car typr is"+car type);
+Car C=new Car();
+C.car model name="EA0654";
+System.out.println(C.car model name);
+Car C1=new Car();
+C1.car cost=100000
+System.out.println("C1.car cost");
+}
+}

@@ -1,0 +1,16 @@
+class Emp
+{
+	static int emp_id= 10;
+	int sal;
+	char grade;
+	public static void main(string[]args)
+	{
+		System.out.println("emp_id is "+emp_id);
+		Emp E=new Emp();
+		E.sal=50000;
+		System.out.println(E.sal);
+			Emp E1=new Emp();
+		E1.grade='A';
+		System.out.println(E1.grade);
+}
+}

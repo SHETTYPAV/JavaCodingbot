@@ -1,0 +1,16 @@
+class Home
+{
+static String home_name="SRI MARUTHI NILAYA";
+int home_cost;
+String home_colour;
+public static void main(String[]args)
+{
+System.out.println("the home name is "+home_name);
+Home H=new Home();
+H.home_cost=500000;
+System.out.println(H.home_cost);
+Home H1=new Home();
+H1.home_colour="Brown";
+System.out.println(H1.home_color);
+}
+}

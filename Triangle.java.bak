@@ -1,15 +1,13 @@
 class Triangle
 {
-public void area()
+public void area(int h,int b)
 	{
-	final double pi=3.14;
-	int r=6;
-	double res=pi*r*r;
+	double res=0.5*b*h;
 	System.out.println(res);
 	}
 	public static void main(String [] args)
 	{
-		Triangle T1=new Triangle();
+		Triangle T1=new Triangle(5,8);
 		T1.area();
 	}
 }

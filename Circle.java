@@ -1,8 +1,7 @@
 class Circle
 {
-void area()
+void area(int r)
 	{
-int r=8;
 double pi=3.14;
 double res=pi*r*r;
 System.out.println(res);
@@ -10,6 +9,6 @@ System.out.println(res);
 public static void main(String[] args)
 {
 Circle C=new Circle();
-C.area();
+C.area(9);
 }
 }

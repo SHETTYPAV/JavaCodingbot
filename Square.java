@@ -1,14 +1,13 @@
 class Square
 {
-public void area()
-{
-int a=7;
+public void area(int a)
+	{
 int res=a*a;
 System.out.println(res);
 }
 public static void main(String[]args)
 {
 Square S1=new Square();
-S1.area();
+S1.area(7);
 }
 }

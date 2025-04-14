@@ -1,16 +1,17 @@
 class Triangle
 {
-public double area()
+	static void add()
 	{
-	int h=8;
-	int b=6;
-	double res=0.5*b*h;
-	return res;
+		int a=3;
+		int b=4;
+		double c= 0.5*a*b;
+		System.out.println(c);
 	}
-	public static void main(String [] args)
+}
+		class Tr
 	{
-		Triangle T1=new Triangle();
-		double x=T1.area();
-		System.out.println(x);
-	}
+		public static void main(String [] args)
+		{
+			Triangle.add();
+		}
 }

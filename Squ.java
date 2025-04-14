@@ -1,18 +1,16 @@
-class Sector
+class Square
 {
  public static void area()
 	{
-	 double t=2.14;
-	 int r=5;
-	 double res=0.5*r*r*t;
+	 int a=5;
+	 int res= a*a;
 	 System.out.println(res);
 	}
 }
-	class S
-	{
+class Squ
+{
 	public static void main(String [] args)
 	{
-		Sector.area();
-		
+		Square.area();
 	}
 }

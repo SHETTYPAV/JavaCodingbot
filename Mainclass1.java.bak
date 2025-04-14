@@ -1,0 +1,45 @@
+class Bike
+{
+	void sound()
+	{
+		System.out.println("some sound");
+	}
+}
+class pulsar extends Bike
+{
+	void sound()
+	{
+		System.out.println("dur dur");
+	}
+}
+class java extends Bike
+{
+	void sound(){
+		System.out.println("tuk tuk");
+	}
+}
+class BMW extends Bike
+{
+	void sound(){
+		System.out.println("vroom vroom");
+}
+}
+class Stimulator 
+{
+	static void veh_sound(Bike B1)
+	{
+		B1.sound();
+	}
+}
+class Mainclass
+{
+	public static void main(String[]args)
+	{
+	pulsar p1=new pulsar();
+	java j1=new java();
+	BMW b1=new BMW();
+	Stimulator.veh_sound(p1);
+	Stimulator.veh_sound(j1);
+	Stimulator.veh_sound(b1);
+}
+}

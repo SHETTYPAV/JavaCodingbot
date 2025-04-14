@@ -1,13 +1,16 @@
 class Parallelogram
 {
-void area(int b,int h)
+int area()
 {
+int b=5;
+int h=8;
 int res=b*h;
-System.out.println(res);
+return res;
 }
 public static void main(String[]args)
 {
 Parallelogram P=new Parallelogram();
-P.area(7,4);
+int x=P.area();
+System.out.println(x);
 }
 }

@@ -1,13 +1,16 @@
 class Rectangle
 {
-public void area(int a,int b)
+public int area()
 {
+int a=5;
+int b=6;
 int res=a*b;
-System.out.println(res);
+return res;
 }
 public static void main(String[]args)
 {
 Rectangle R=new Rectangle();
-R.area(4,9);
+int x=R.area();
+System.out.println(x);
 }
 }

@@ -1,13 +1,17 @@
 class Trapezoid
 {
-	void area(int a,int b,int h)
+	double area()
 	{
+int a=5;
+int b=6;
+int h=8;
 double res=0.5*(a+b)*h;
-System.out.println(res);
+return res;
 }
 public static void main(String[]args)
 {
 Trapezoid T=new Trapezoid();
-T.area(5,6,8);
+double x=T.area();
+System.out.println(x);
 }
 }

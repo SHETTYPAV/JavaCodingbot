@@ -1,0 +1,15 @@
+class Indianrailway
+{
+void train{
+System.out.println("book train")
+}}
+class IR{
+static void book(indianrailway P2)
+{
+P2.train();
+}}
+class Customer{
+Public static void main(String[]args){
+indianrailway P1=new indianrailway();
+IR.book(P1);
+}}

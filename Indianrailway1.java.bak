@@ -1,0 +1,18 @@
+class Indianrailway1 {
+    void train() {
+        System.out.println("book train");
+    }
+}
+
+class IR {
+    static void book(Indianrailway1 P2) {
+        P2.train();
+    }
+}
+
+class Customer {
+    public static void main(String[] args) {
+        Indianrailway1 P1 = new Indianrailway1();
+        IR.book(P1);  // Correct way to call static method
+    }
+}

@@ -1,14 +1,13 @@
-class Circle
+class Circler
 {
- public static void area()
+ public static double area()
 	{
 	 final double pi=3.14;
 	 int r=5;
 	 double res=pi*r*r; 
-	 System.out.println(res);
 	 return res;
 	}
-	public static double main(String [] args)
+	public static void main(String [] args)
 	{
 		double c=area();
 		System.out.println(c);

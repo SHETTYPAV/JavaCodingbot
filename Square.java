@@ -1,6 +1,6 @@
 class Square
 {
- public  int area()
+ public static int area()
 	{
 	 int a=5;
 	 int res= a*a;
@@ -8,7 +8,7 @@ class Square
 	}
 	public static void main(String [] args)
 	{
-		int x=new Square().area();
-		System.out.println(x);
+		int c=area();
+		System.out.println(c);
 	}
 }

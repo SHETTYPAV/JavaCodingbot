@@ -1,4 +1,4 @@
-class Triangle {  
+class Triangler {  
     public static void main(String[] args) {  
         double c = area();  
         System.out.println(c);  

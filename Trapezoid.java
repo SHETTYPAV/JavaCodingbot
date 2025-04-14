@@ -1,17 +1,16 @@
 class Trapezoid
 {
-	public static double area()
-		{
-		int a=3;
-		int b=7;
-		int h=4;
-		double res = 0.5*(a + b)*h;
-		return res;
-		
-	}
-	public static void main(String [] args)
+	void area()
 	{
-		 double c=area();
-		System.out.println(c);
-	}
+int a=5;
+int b=6;
+int h=8;
+double res=0.5*(a+b)*h;
+System.out.println(res);
+}
+public static void main(String[]args)
+{
+Trapezoid T=new Trapezoid();
+T.area();
+}
 }

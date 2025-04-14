@@ -1,15 +1,15 @@
 class Sector
 {
- public static double area()
-	{
-	 double t=2.14;
-	 int r=5;
-	 double res=0.5*r*r*t; 
-	 return res;
-	}
-	public static void main(String [] args)
-	{
-		double c=area();
-		System.out.println(c);
-	}
+void area()
+{
+int r=6;
+double t=5.6;
+double res=0.5*r*r*t;
+System.out.println(res);
+}
+public static void main(String[]args)
+{
+Sector S=new Sector();
+S.area();
+}
 }

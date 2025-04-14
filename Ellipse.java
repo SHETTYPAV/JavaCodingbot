@@ -1,14 +1,17 @@
 class Ellipse
 {
- public void area( int a ,int b)
+ public void area()
 	{
 	 final double pi=3.14;
+	 int a=5;
+	 int b=4;
 	 double res=pi*a*b;
-	 System.out.println(res);
+	 
 	}
 
 	public static void main(String [] args)
 	{
-		new Ellipse().area(4,5);	
+		double x=new Ellipse().area();	
+		System.out.println(x);
 	}
 }

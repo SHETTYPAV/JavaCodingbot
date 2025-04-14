@@ -1,6 +1,6 @@
 class Triangle
 {
-	Public void area()
+	public void area()
 	{
 		int a=3;
 		int b=4;
